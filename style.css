@@ -1,0 +1,140 @@
+* {
+ padding: auto 0;
+ margin:  0;
+ text-decoration: none;
+ list-style: none;
+ box-sizing: border-box;
+}
+
+header {
+ display: flex;
+ justify-content: space-around;
+ width: 100%;
+ background: #F8F8F8;
+ height: 200px;
+ padding: 0;
+ margin: 0;
+ text-decoration: none;
+ list-style: none;
+ box-sizing: border-box;
+}
+
+body {
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ 
+}
+
+nav {
+ background: #0b89fd;
+ height: 100px;
+ width: 115%;
+}
+
+ul {
+ border: 20px  #0b89fd;
+ background-color: #B7B7B7;
+ height: 120%;
+ text-align: center;
+}
+
+li {
+ text-align: center; 
+}
+
+li:last-child {
+ border-bottom: none;
+}
+
+label.logo {
+ color: #F8F8F8;
+ font-size: 35px;
+ line-height: 80px;
+ padding: 0 100px;
+ font-weight: bold;
+}
+
+nav ul li {
+ display: inline-block;
+ line-height: 80px;
+ margin: 0 5px;
+ height: 5px
+}
+
+nav ul li a {
+ color: #0b89fd;
+ font-size: 17px;
+ padding: 7px 13px;
+ border-radius: 3px;
+ text-transform: uppercase;
+}
+
+a.active.a:hover {
+ background-color: red;
+}
+
+.newbar {
+ background-color: #0b89fd;
+ color: #F8F8F8;
+ height: 80px;
+ width: 100%;
+ padding: o;
+ margin: 0;
+ line-height: 1.5;
+ text-transform:uppercase;
+ text-align: center;
+}
+
+.card {
+ /* Add shadows to create the "card" effect */
+ box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+ transition: 0.3s;
+ background-color: #B7B7B7;
+ width: 500px;
+ height: 505px;
+ margin-top: 15px;
+ margin-left: auto;
+ margin-right: auto;
+ padding: 5px 16px;
+ text-align: center;
+}
+
+/*this is a test to see if it will work */
+.card-text {
+ word-wrap: break-word;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+ box-shadow: 0 8px 16px 0 rgba(0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+ padding: 2px 16px;
+}
+
+.test {
+ position:relative; 
+ left:200px; bottom: 250px;
+ padding: auto 0;
+ margin: auto 0;
+}
+
+.gauntlet {
+  text-align: center;
+}
+
+.lift {
+  margin-top: 100px;
+}
+
+.feather {
+  text-align: center;
+  background: #0b89fd;
+  margin: 0 auto;
+  width: 100%
+}
+
+.pictureperfect {
+  padding-top: 20px;
+}
