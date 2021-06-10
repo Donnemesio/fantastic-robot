@@ -1,9 +1,9 @@
 * {
- padding: auto 0;
+ padding: 0;
  margin:  0;
  text-decoration: none;
- list-style: none;
  box-sizing: border-box;
+ scroll-behavior: smooth;
 }
 
 header {
@@ -135,6 +135,29 @@ a.active.a:hover {
   width: 100%
 }
 
+/*
 .pictureperfect {
   padding-top: 20px;
+  position: relative; left: auto;
+} */
+
+#leaf {
+  width: 200px;
+}
+
+.twinkle {
+  background-image: url(/fantastic-robot/images/jamestribe.png);
+  position: relative; top: -260px;
+}
+
+.pictureperfect {
+  width: 96%;
+  max-width: 200px;
+  margin: 0 auto;
+  float:left;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: "inline-block";
 }

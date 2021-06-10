@@ -103,8 +103,9 @@
   opacity: 1;
   pointer-events: auto;
 }
+
 .scroll-up-btn:hover{
-  filter:brightness(90%);
+ filter: brightness(90%);
 }
 
 /* home section styling */
